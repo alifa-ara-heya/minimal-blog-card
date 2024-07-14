@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 164px 0;
+    /* align-items: center; */
+    /* height: calc( 100vh - 164px ); */
+    background-color: #FAFAF9;
+    font-family: "Sora", sans-serif;
+    
+}
+
+.card-container{
+    max-width: 368px;
+    height: auto;
+    border-radius: 10px;
+    /* padding: 16px; */
+    background-color: #FFFFFF;
+    /* border: 1px solid #000; */
+    /* Box-shadow */
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.card-container img{
+    width: calc( 100% - 32px);
+    height: auto;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+header h4{
+    color: #883AE1;
+    background-color: #E6D6FC;
+    padding: 6px 16px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.card-container h3{
+    font-size: 1.125rem;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 6px;
+
+}
+
+.card-container h4{
+    font-size: .625rem;
+    margin-right: 16px;
+
+}
+
+.card-container p{
+    font-size: .875rem;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card-paragraph{
+    color: #6C727F;
+}
+
+footer{
+    border-top: 1px solid #E5EAF0;
+    margin-top: 20px;
+}
+
+footer p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #6C727F;
+}
